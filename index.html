@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html5 learning in 10 days</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initialise()" onkeypress="input(event)">
+    <div class="calculator">
+        Calculator<br>
+        <button class="btn" id="0" onclick="clicked('0')">0</button>
+        <button class="btn" id="1" onclick="clicked('1')">1</button>
+        <button class="btn" id="2" onclick="clicked('2')">2</button>
+        <button class="btn" id="3" onclick="clicked('3')">3</button>
+        <button class="btn" id="4" onclick="clicked('4')">4</button><br>
+        <button class="btn" id="5" onclick="clicked('5')">5</button>
+        <button class="btn" id="6" onclick="clicked('6')">6</button>
+        <button class="btn" id="7" onclick="clicked('7')">7</button>
+        <button class="btn" id="8" onclick="clicked('8')">8</button>
+        <button class="btn" id="9" onclick="clicked('9')">9</button><br>
+        <button class="btn" id="+" onclick="clicked('+')">+</button>
+        <button class="btn" id="-" onclick="clicked('-')">-</button>
+        <button class="btn" id="/" onclick="clicked('/')">/</button>
+        <button class="btn" id="*" onclick="clicked('*')">*</button>
+        <button class="btn" id="=" onclick="clicked('=')">=</button><br>
+        <button class="btn" id="reset" onclick="reset()">reset</button><br>
+        <p id="result">0</p>
+
+    </div>
+
+</body>
+</html>
